@@ -15,8 +15,11 @@
   "dependencies": {
     "lodash.isarray": "^4.0.0",
     "lodash.isobject": "^3.0.2",
-    "merge": "^1.2.0",
-    "react": "^0.14.0 || ^15.0.0"
+    "merge": "^1.2.0"
+  },
+  "peerDependencies": {
+    "react": "^15.0.0 || ^0.14.0",
+    "react-dom": "^15.0.0 || ^0.14.0"
   },
   "devDependencies": {
     "babel-core": "^6.6.4",
